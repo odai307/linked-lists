@@ -1,26 +1,15 @@
 <h1>Linked List Implementation</h1>
 <ul>
-    <li>append(value) adds a new node containing value to the end of the list or to start if list is empty<li>
-    <li><li>
-    <li><li>
-    <li><li>
-    <li><li>
-    <li><li>
-    <li><li>
-    <li><li>
-    <li><li>
-    <li><li>
-
+    <li><code>append(value)</code>: Adds a new node containing <code>value</code> to the end of the list or to the start if the list is empty.</li>
+    <li><code>prepend(value)</code>: Adds a new node containing <code>value</code> to the start of the list.</li>
+    <li><code>size()</code>: Returns the total number of nodes in the list.</li>
+    <li><code>head()</code>: Returns the first node in the list.</li>
+    <li><code>tail()</code>: Returns the last node in the list.</li>
+    <li><code>at(index)</code>: Returns the node at the given index or an error message if there is no node at the requested index.</li>
+    <li><code>pop()</code>: Removes the last element from the list.</li>
+    <li><code>contains(value)</code>: Returns <code>true</code> if the passed-in <code>value</code> is in the list; otherwise, returns <code>false</code>.</li>
+    <li><code>find(value)</code>: Returns the index of the node containing <code>value</code>, or <code>null</code> if not found.</li>
+    <li><code>toString()</code>: Returns the LinkedList objects as strings in the format: <code>( value ) -> ( value ) -> ( value ) -> null</code>.</li>
+    <li><code>insertAt(value, index)</code>: Inserts a new node with the provided <code>value</code> at the given index, or at the end of the list if the index is larger than the list size.</li>
+    <li><code>removeAt(index)</code>: Removes the node at the given index, or returns an error message if the list is empty or if the requested index is larger than the list size.</li>
 </ul>
-append(value) adds a new node containing value to the end of the list or to start if list is empty
-prepend(value) adds a new node containing value to the start of the list
-size() returns the total number of nodes in the list
-head() returns the first node in the list
-tail() returns the last node in the list
-at(index) returns the node at the given index or error message if there is no node in the requested index
-pop() removes the last element from the list
-contains(value) returns true if the passed in value is in the list and otherwise returns false
-find(value) returns the index of the node containing value, or null if not found
-toString() returns your LinkedList objects as strings in the format: ( value ) -> ( value ) -> ( value ) -> null
-insertAt(value, index) inserts a new node with the provided value at the given index or at the end of the list if index is bigger than list size
-removeAt(index) removes the node at the given index or error message if the list is empty or if the request index is bigger than list size
